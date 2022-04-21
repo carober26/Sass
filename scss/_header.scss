@@ -1,0 +1,35 @@
+
+
+header {
+
+     background-color: $col_black;
+
+     ul{
+          list-style: none;
+          display: flex;
+          justify-content: space-evenly;
+     
+          li {
+               padding: 15px;
+               text-align: center;
+     
+          }
+          a {
+               text-decoration: none;
+               color:$col_white;
+               font-size: 48px;
+               font-family: Arial, Helvetica, sans-serif;
+               &:hover{
+                    color: grey;
+                    font-weight: bold;
+               }
+               
+          }
+     }
+
+}
+
+
+.header_image {
+height: 400px;
+}
